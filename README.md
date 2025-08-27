@@ -2,7 +2,7 @@
 
 # BMTC_Transfer-based Attack for Action Recognition
 
-This repository is official PyTorch implementation code for IJCAI'25 paper:  **Temporal Consistency Constrained Transferable Adversarial Attacks with Background Mixup for Action Recognition**.
+This repository is official PyTorch implementation code for IJCAI'25 paper:  **Temporal Consistency Constrained Transferable Adversarial Attacks with Background Mixup for Action Recognition**.  [[arXiv paper]](https://arxiv.org/abs/2505.17807)
 
 ## **Abstract**
 
@@ -33,7 +33,7 @@ Install the libraries using requirements.txt as:
 For action recognition, the used datasets are sampled from UCF101 and Kinetics-400. Download attacked datasets from [here](https://drive.google.com/drive/folders/1O4XyLw37WqGKqFvWFaE2ps5IAD_shSpG?usp=sharing). 
 Change the **UCF_DATA_ROOT** and **Kinetic_DATA_ROOT** of utils.py into your dataset path.
 
-For image recogition, download the data from [here](https://drive.google.com/file/d/1d-_PKYi3MBDPtJV4rfMCCtmsE0oWX7ZB/view?usp=sharing) into `/path/to/data`.
+For image recognition, download the data from [here](https://drive.google.com/file/d/1d-_PKYi3MBDPtJV4rfMCCtmsE0oWX7ZB/view?usp=sharing) into `/path/to/data`.
 
 Then you should prepare the backgroundsets as follows:
 
@@ -152,18 +152,17 @@ scripts ori_eval.sh
 If you find this repo useful, please cite the following paper.
 
 ```
-@inproceedings{li-ijcai2025-bmtc,
+@inproceedings{li-ijcai2025-bmtc_attack,
   author       = {Ping Li, Jianan Ni, Bo Pang},
   title        = {Temporal Consistency Constrained Transferable Adversarial Attacks with Background Mixup for Action Recognition},
-  booktitle    = {Proceedings of the International Joint Conference on
-                  Artificial Intelligence, (IJCAI)},
-  year         = {2025},
+  booktitle    = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  year         = {2025}
 }
 ```
 
 ## Contact
 
-For any issues, please contact Mr. Ni Jianan via email njn@hdu.edu.cn
+If you have any questions, please feel free to contact Mr. NI Jianan via email njn@hdu.edu.cn.
 
 ## **Acknowledgement:**
 
@@ -172,5 +171,6 @@ The implementation of this project is based on the codebases below.
 [Trustworthy-AI-Group](https://github.com/Trustworthy-AI-Group/TransferAttack)
 
 [TT](https://github.com/zhipeng-wei/TT)
+
 
 If you find this project helpful, Please also cite the above codebases.
